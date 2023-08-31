@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  background-color: rgb(38, 23, 180);
+  color: white;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.clear-button {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  background-color: rgb(145, 56, 23);
+  border: 0;
+  color: white;
+}
